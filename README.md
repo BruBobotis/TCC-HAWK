@@ -405,7 +405,7 @@ Como melhorias futuras, destacam-se:
 ## Estrutura do Repositório
 
 ```text
-HAWK/
+TCC-HAWK/
 │
 ├── firmware/
 │   └── esp32_hawk_watch/
