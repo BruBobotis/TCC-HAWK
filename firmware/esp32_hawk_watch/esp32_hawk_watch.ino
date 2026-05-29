@@ -531,14 +531,13 @@ void updateMPUData() {
 
 
 // ==========================
-// MAX30102 - exemplo biblioteca (Lógica do Arquivo 2)
+// MAX30102 
 // ==========================
 bool initMAX30102() {
   if (!particleSensor.begin(Wire, I2C_SPEED_FAST)) {
     return false;
   }
 
-  // Configuração padrão da biblioteca para o Buffer funcionar
   particleSensor.setup(); 
   particleSensor.setPulseAmplitudeRed(0x20); // LED Vermelho
   particleSensor.setPulseAmplitudeIR(0x30);  // LED Infravermelho
@@ -563,21 +562,11 @@ void updateMAX30102() {
   long irValue = particleSensor.getIR();
   long redValue = particleSensor.getRed();
 
-  // ==========================================
-  // DEBUG DO GEMINÃO
-  // ==========================================
   static unsigned long lastDebug = 0;
   if (millis() - lastDebug > 500) {
     lastDebug = millis();
-    // Serial.print("IR: "); Serial.print(irValue);
-    // Serial.print(" | RED: "); Serial.print(redValue);
-    // Serial.print(" | Buffer: "); Serial.print(maxSampleIndex);
-    // Serial.print("/100 | Valido: "); Serial.print(validSPO2);
-    // Serial.print(" | BPM Tela: "); Serial.print(dados.bpm);
-    // Serial.print(" | SpO2 Tela: "); Serial.println(dados.spo2);
   }
 
-  // 1. CORTA SE TIRAR O DEDO
   if (irValue < 50000) {
     dados.dedo = false;
     dados.bpm = 0;
@@ -590,14 +579,12 @@ void updateMAX30102() {
 
   dados.dedo = true;
 
-  // 2. ENCHE O BUFFER
   if (maxSampleIndex < MAX_BUF_LEN) {
     irBuffer[maxSampleIndex] = irValue;
     redBuffer[maxSampleIndex] = redValue;
     maxSampleIndex++;
   }
 
-  // 3. DESLOCA AS AMOSTRAS
   if (maxSampleIndex >= MAX_BUF_LEN) {
     spo2BufferReady = true;
     for (int i = 25; i < 100; i++) {
@@ -607,7 +594,6 @@ void updateMAX30102() {
     maxSampleIndex = 75; 
   }
 
-  // 4. CÁLCULO E FILTRAGEM (A MÁGICA DA SUAVIDADE)
   if (spo2BufferReady && millis() - lastMAXCalc > 1000) {
     lastMAXCalc = millis();
     
@@ -616,27 +602,21 @@ void updateMAX30102() {
       &spo2Calc, &validSPO2, &heartRateCalc, &validHeartRate
     );
 
-    // --- FILTRO DE SPO2 (Chega de Variação) ---
     if (validSPO2 && spo2Calc >= 85 && spo2Calc <= 99) {
       if (dados.spo2 == 0) {
-        dados.spo2 = spo2Calc; // Primeiro valor pega direto
+        dados.spo2 = spo2Calc; 
       } else {
-        // Mistura: 80% do valor antigo + 20% do novo (Sobe ou desce devagarzinho)
         dados.spo2 = (dados.spo2 * 0.8) + (spo2Calc * 0.2);
       }
     }
 
-    // --- FILTRO DE BPM (Fim da Agressividade) ---
     if (validHeartRate && heartRateCalc > 40 && heartRateCalc < 200) {
       if (dados.bpm == 0) {
         dados.bpm = heartRateCalc;
       } else {
-        // REGRA DE OURO: Ignora pulos absurdos causados por tremidas do dedo
         int diferenca = abs(heartRateCalc - dados.bpm);
         
         if (diferenca < 25) { 
-          // Se o batimento for confiável (não pulou mais que 25 de uma vez), atualiza!
-          // Deixei 85% pro valor antigo e 15% pro novo, fica ultra estável!
           dados.bpm = (dados.bpm * 0.80) + (heartRateCalc * 0.20);
         }
       }
@@ -827,48 +807,10 @@ void handleBLECommand(String cmd) {
     if (parseTimePayload(payload, y,m,d,hh,mm)) {
       applyTime(y,m,d,hh,mm);
       uiNeedsRefresh = true;
-      // Serial.printf("[TIME] OK %04d-%02d-%02d %02d:%02d\n", y,m,d,hh,mm);
-    } else {
-      // Serial.printf("[TIME] FAIL payload='%s'\n", payload.c_str());
     }
     return;
   }
 }
-
-// void sendPlotterData() {
-//   static unsigned long lastPlot = 0;
-//   if (millis() - lastPlot < 5) return; // ~200 Hz
-//   lastPlot = millis();
-
-//   Serial.print("GT:");
-//   Serial.print(totalAccG, 3);
-
-//   Serial.print(",PEAK:");
-//   Serial.print(impactPeakG, 3);
-//   Serial.print(",BASE:");
-//   Serial.print(1.000, 3);
-
-//   Serial.print(",LOW_G:");
-//   Serial.print(FALL_LOW_G, 3);
-
-//   Serial.print(",IMPACT_G:");
-//   Serial.print(FALL_IMPACT_G, 3);
-
-//   Serial.print(",LOW_FLAG:");
-//   Serial.print(lowGDetected ? 1.8 : 0.0, 3);
-
-//   Serial.print(",FALL_FLAG:");
-//   Serial.print(dados.queda ? 2.2 : 0.0, 3);
-
-//   Serial.print(",AX:");
-//   Serial.print(dados.ax, 3);
-
-//   Serial.print(",AY:");
-//   Serial.print(dados.ay, 3);
-
-//   Serial.print(",AZ:");
-//   Serial.println(dados.az, 3);
-// }
 
 // ==========================
 // BLE CALLBACKS
@@ -1034,7 +976,6 @@ void drawHealth() {
   drawSectionTitle("SAUDE");
   drawFooterCenter(maxOK ? "MAX30102 ativo" : "MAX30102 nao detectado");
 
-  // Já chama a dinâmica aqui para desenhar os cards a primeira vez
   updateHealthDynamic();
 }
 
@@ -1056,7 +997,7 @@ void updateHealthDynamic() {
   }
 
   if (currentScreen == SCREEN_HEALTH) {
-    // Tela SAUDE apenas com as leituras principais
+
     card(10, 46, 146, 60, CARD_1);
     text(18, 54, "Freq. cardiaca", TXT_CYAN, 1);
     textCenter(83, 74, (dados.dedo && dados.bpm > 0) ? String(dados.bpm) : "--", TXT_WHITE, 3);
@@ -1116,14 +1057,12 @@ void drawConnection() {
   drawTopBar();
   drawSectionTitle("CONEXAO");
 
-  // QUADRO ÚNICO: Ocupando a largura total (300) e esticado até o rodapé (altura 100)
+ 
   card(10, 46, 300, 100, CARD_1); 
 
-  // TEXTOS DO BLUETOOTH (Esquerda) - Descemos o Y para 76 e 96 para centralizar
   text(18, 76, "Bluetooth", TXT_CYAN, 1);
   text(18, 96, dados.ble ? "Conectado" : "Offline", dados.ble ? OK_GREEN : WARN_ORANGE, 2);
 
-  // TEXTOS DO SYNC (Direita) - Descemos o Y para 76 e 96 para centralizar
   text(172, 76, "Sync", TXT_CYAN, 1);
   if (dados.sync.length() > 18) {
     text(172, 96, "Nao sincronizado", TXT_WHITE, 1);
