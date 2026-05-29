@@ -409,7 +409,7 @@ TCC-HAWK/
 │
 ├── firmware/
 │   └── esp32_hawk_watch/
-│       ├── main.ino
+│       ├── esp32_hawk_watch.ino
 │       ├── alerts.cpp
 │       ├── alerts.h
 │
