@@ -1,7 +1,7 @@
 # HAWK – Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT
 
 <p align="center">
-  <img src="docs/imagens/dispositivo_vestivel.jpg" width="400" alt="Protótipo do Relógio HAWK"/>
+  <img src="docs/imagens/dispositivo_vestivel.jpg" width="600" alt="Protótipo do Relógio HAWK"/>
 </p>
 
 ## Visão Geral
