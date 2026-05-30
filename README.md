@@ -2,7 +2,7 @@
 
 <img src="docs/imagens/dispositivo_vestivel.jpg" width="500" alt="Logo HAWK"/>
 
-# HAWK  
+# TCC-HAWK  
 ### Health Assistant Watch Kare
 
 Sistema vestível para cuidado geriátrico com monitoramento de sinais vitais, detecção de quedas, comunicação BLE e aplicativo Android nativo.
