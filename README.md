@@ -424,10 +424,6 @@ TCC-HAWK/
 │   ├── imagens/
 │   └── artigo/
 │
-├── hardware/
-│   ├── esquemas/
-│   └── componentes.md
-│
 ├── esquematicos/
 │   └── eletronico/
 │       ├── eletronico.kicad_sch/
