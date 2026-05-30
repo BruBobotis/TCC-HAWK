@@ -413,141 +413,141 @@ TCC-HAWK/
 │       ├── alerts.cpp
 │       ├── alerts.h
 │
-android/
-└── TCC_HAWK/
-    ├── build.gradle.kts
-    ├── settings.gradle.kts
-    ├── gradle.properties
-    ├── gradlew
-    ├── gradlew.bat
-    ├── gradle/
-    │   ├── libs.versions.toml
-    │   └── wrapper/
-    │       ├── gradle-wrapper.jar
-    │       └── gradle-wrapper.properties
-    │
-    └── app/
-        ├── build.gradle.kts
-        ├── proguard-rules.pro
-        │
-        └── src/
-            ├── main/
-            │   ├── AndroidManifest.xml
-            │   │
-            │   ├── java/com/example/tcc_hawk/
-            │   │   ├── MainActivity.kt
-            │   │   │
-            │   │   ├── data/
-            │   │   │   ├── alarms/
-            │   │   │   │   ├── AlarmReceiver.kt
-            │   │   │   │   └── AlarmScheduler.kt
-            │   │   │   │
-            │   │   │   ├── ble/
-            │   │   │   │   └── HawkBleUuids.kt
-            │   │   │   │
-            │   │   │   ├── local/
-            │   │   │   │   ├── PreferencesStore.kt
-            │   │   │   │   └── ThemePrefs.kt
-            │   │   │   │
-            │   │   │   ├── model/
-            │   │   │   │   ├── Models.kt
-            │   │   │   │   └── PatientProfile.kt
-            │   │   │   │
-            │   │   │   ├── mqtt/
-            │   │   │   │   └── MqttManager.kt
-            │   │   │   │
-            │   │   │   └── repository/
-            │   │   │       ├── HawkRepository.kt
-            │   │   │       ├── RepositoryProvider.kt
-            │   │   │       ├── ble/
-            │   │   │       │   └── BleHawkRepository.kt
-            │   │   │       └── fake/
-            │   │   │           └── FakeHawkRepository.kt
-            │   │   │
-            │   │   └── ui/
-            │   │       ├── components/
-            │   │       │   ├── DatePickerField.kt
-            │   │       │   └── TimePickerField.kt
-            │   │       │
-            │   │       ├── navigation/
-            │   │       │   └── AppNav.kt
-            │   │       │
-            │   │       ├── screens/
-            │   │       │   ├── alerts/
-            │   │       │   │   ├── AlertFullScreenActivity.kt
-            │   │       │   │   ├── AlertsFullScreen.kt
-            │   │       │   │   └── AlertsScreen.kt
-            │   │       │   │
-            │   │       │   ├── auth/
-            │   │       │   │   └── AuthScreen.kt
-            │   │       │   │
-            │   │       │   ├── caregivers/
-            │   │       │   │   └── CaregiversScreen.kt
-            │   │       │   │
-            │   │       │   ├── dashboard/
-            │   │       │   │   └── DashboardScreen.kt
-            │   │       │   │
-            │   │       │   ├── main/
-            │   │       │   │   └── MainScreen.kt
-            │   │       │   │
-            │   │       │   ├── onboarding/
-            │   │       │   │   └── OnboardingScreen.kt
-            │   │       │   │
-            │   │       │   ├── reports/
-            │   │       │   │   └── ReportsScreen.kt
-            │   │       │   │
-            │   │       │   ├── settings/
-            │   │       │   │   ├── SettingsScreen.kt
-            │   │       │   │   └── SettingsViewModel.kt
-            │   │       │   │
-            │   │       │   └── splash/
-            │   │       │       └── SplashScreen.kt
-            │   │       │
-            │   │       ├── state/
-            │   │       │   └── DashboardUiState.kt
-            │   │       │
-            │   │       ├── theme/
-            │   │       │   ├── AppThemeState.kt
-            │   │       │   ├── Color.kt
-            │   │       │   ├── Theme.kt
-            │   │       │   └── Type.kt
-            │   │       │
-            │   │       └── viewmodel/
-            │   │           ├── AlertsViewModel.kt
-            │   │           └── DashboardViewModel.kt
-            │   │
-            │   └── res/
-            │       ├── drawable/
-            │       │   ├── hawk_logo.png
-            │       │   ├── hawk_logo_background.xml
-            │       │   ├── ic_launcher_background.xml
-            │       │   └── ic_launcher_foreground.xml
-            │       │
-            │       ├── mipmap-*/
-            │       │   ├── hawk_logo.webp
-            │       │   ├── hawk_logo_foreground.webp
-            │       │   ├── hawk_logo_round.webp
-            │       │   ├── ic_launcher.webp
-            │       │   ├── ic_launcher_foreground.webp
-            │       │   └── ic_launcher_round.webp
-            │       │
-            │       ├── values/
-            │       │   ├── colors.xml
-            │       │   ├── ic_launcher_background.xml
-            │       │   ├── strings.xml
-            │       │   └── themes.xml
-            │       │
-            │       └── xml/
-            │           ├── backup_rules.xml
-            │           └── data_extraction_rules.xml
-            │
-            ├── androidTest/
-            │   └── java/com/example/tcc_hawk/
-            │       └── ExampleInstrumentedTest.kt
-            │
-            └── test/
-                └── java/com/example/tcc_hawk/
-                    └── ExampleUnitTest.kt
+├── android/
+│   └── TCC_HAWK/
+│        ├── build.gradle.kts
+│        ├── settings.gradle.kts
+│        ├── gradle.properties
+│        ├── gradlew
+│        ├── gradlew.bat
+│        ├── gradle/
+│        │   ├── libs.versions.toml
+│        │   └── wrapper/
+│        │       ├── gradle-wrapper.jar
+│        │       └── gradle-wrapper.properties
+│        │
+│        └── app/
+│            ├── build.gradle.kts
+│            ├── proguard-rules.pro
+│            │
+│            └── src/
+│                ├── main/
+│                │   ├── AndroidManifest.xml
+│                │   │
+│                │   ├── java/com/example/tcc_hawk/
+│                │   │   ├── MainActivity.kt
+│                │   │   │
+│                │   │   ├── data/
+│                │   │   │   ├── alarms/
+│                │   │   │   │   ├── AlarmReceiver.kt
+│                │   │   │   │   └── AlarmScheduler.kt
+│                │   │   │   │
+│                │   │   │   ├── ble/
+│                │   │   │   │   └── HawkBleUuids.kt
+│                │   │   │   │
+│                │   │   │   ├── local/
+│                │   │   │   │   ├── PreferencesStore.kt
+│                │   │   │   │   └── ThemePrefs.kt
+│                │   │   │   │
+│                │   │   │   ├── model/
+│                │   │   │   │   ├── Models.kt
+│                │   │   │   │   └── PatientProfile.kt
+│                │   │   │   │
+│                │   │   │   ├── mqtt/
+│                │   │   │   │   └── MqttManager.kt
+│                │   │   │   │
+│                │   │   │   └── repository/
+│                │   │   │       ├── HawkRepository.kt
+│                │   │   │       ├── RepositoryProvider.kt
+│                │   │   │       ├── ble/
+│                │   │   │       │   └── BleHawkRepository.kt
+│                │   │   │       └── fake/
+│                │   │   │           └── FakeHawkRepository.kt
+│                │   │   │
+│                │   │   └── ui/
+│                │   │       ├── components/
+│                │   │       │   ├── DatePickerField.kt
+│                │   │       │   └── TimePickerField.kt
+│                │   │       │
+│                │   │       ├── navigation/
+│                │   │       │   └── AppNav.kt
+│                │   │       │
+│                │   │       ├── screens/
+│                │   │       │   ├── alerts/
+│                │   │       │   │   ├── AlertFullScreenActivity.kt
+│                │   │       │   │   ├── AlertsFullScreen.kt
+│                │   │       │   │   └── AlertsScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── auth/
+│                │   │       │   │   └── AuthScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── caregivers/
+│                │   │       │   │   └── CaregiversScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── dashboard/
+│                │   │       │   │   └── DashboardScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── main/
+│                │   │       │   │   └── MainScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── onboarding/
+│                │   │       │   │   └── OnboardingScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── reports/
+│                │   │       │   │   └── ReportsScreen.kt
+│                │   │       │   │
+│                │   │       │   ├── settings/
+│                │   │       │   │   ├── SettingsScreen.kt
+│                │   │       │   │   └── SettingsViewModel.kt
+│                │   │       │   │
+│                │   │       │   └── splash/
+│                │   │       │       └── SplashScreen.kt
+│                │   │       │
+│                │   │       ├── state/
+│                │   │       │   └── DashboardUiState.kt
+│                │   │       │
+│                │   │       ├── theme/
+│                │   │       │   ├── AppThemeState.kt
+│                │   │       │   ├── Color.kt
+│                │   │       │   ├── Theme.kt
+│                │   │       │   └── Type.kt
+│                │   │       │
+│                │   │       └── viewmodel/
+│                │   │           ├── AlertsViewModel.kt
+│                │   │           └── DashboardViewModel.kt
+│                │   │
+│                │   └── res/
+│                │       ├── drawable/
+│                │       │   ├── hawk_logo.png
+│                │       │   ├── hawk_logo_background.xml
+│                │       │   ├── ic_launcher_background.xml
+│                │       │   └── ic_launcher_foreground.xml
+│                │       │
+│                │       ├── mipmap-*/
+│                │       │   ├── hawk_logo.webp
+│                │       │   ├── hawk_logo_foreground.webp
+│                │       │   ├── hawk_logo_round.webp
+│                │       │   ├── ic_launcher.webp
+│                │       │   ├── ic_launcher_foreground.webp
+│                │       │   └── ic_launcher_round.webp
+│                │       │
+│                │       ├── values/
+│                │       │   ├── colors.xml
+│                │       │   ├── ic_launcher_background.xml
+│                │       │   ├── strings.xml
+│                │       │   └── themes.xml
+│                │       │
+│                │       └── xml/
+│                │           ├── backup_rules.xml
+│                │           └── data_extraction_rules.xml
+│                │
+│                ├── androidTest/
+│                │   └── java/com/example/tcc_hawk/
+│                │       └── ExampleInstrumentedTest.kt
+│                │
+│                └── test/
+│                    └── java/com/example/tcc_hawk/
+│                        └── ExampleUnitTest.kt
 │
 ├── docs/
 │   ├── fluxogramas/
