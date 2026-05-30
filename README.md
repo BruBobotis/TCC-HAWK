@@ -275,7 +275,7 @@ O alerta de queda é uma das principais funcionalidades do projeto. Quando o rel
 
 Esse comportamento busca chamar a atenção do usuário ou cuidador em situações de risco.
 <p align="center">
-  <img src="docs/imagens/queda.png" width="800" alt="queda"/>
+  <img src="docs/imagens/queda.png" width="500" alt="queda"/>
 </p>
 
 ---
