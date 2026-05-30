@@ -590,6 +590,7 @@ TCC-HAWK/
 │       ├── hora_de_dormir.png
 │       ├── medicação.png
 │       ├── hidratação.png
+│       ├── queda.png
 │   └── artigo/
 │       ├── PFC_Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT - V2.2
 │
