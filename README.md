@@ -1,7 +1,29 @@
-# HAWK – Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT
+<div align="center">
+
+<img src="android/TCC_HAWK/app/src/main/res/drawable/hawk_logo.png" width="220" alt="Logo HAWK"/>
+
+# HAWK  
+### Health Assistant Watch Kare
+
+Sistema vestível para cuidado geriátrico com monitoramento de sinais vitais, detecção de quedas, comunicação BLE e aplicativo Android nativo.
+
+</div>
 
 <p align="center">
-  <img src="docs/imagens/dispositivo_vestivel.jpg" width="600" alt="Protótipo do Relógio HAWK"/>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firmware-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Board-ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Communication-BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Protótipo%20Funcional-success?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="#visão-geral">Visão Geral</a> •
+  <a href="#principais-funcionalidades">Funcionalidades</a> •
+  <a href="#arquitetura-geral-do-sistema">Arquitetura</a> •
+  <a href="#aplicativo-android">Aplicativo</a> •
+  <a href="#como-executar-o-projeto">Como Executar</a>
 </p>
 
 ## Visão Geral
