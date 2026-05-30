@@ -22,6 +22,10 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 * Lucas Guedes Pereira - RA: 062210002
 * Pedro Henrique Mateus Ribeiro - RA: 062220039
 
+<p align="center">
+  <img src="docs/imagens/theMans.jpeg" width="300" alt="Protótipo do Relógio HAWK"/>
+</p>
+* Com aparição do nosso companheiro Vinicius Koiti, que felizmente não estava em nosso grupo.
 ---
 
 ## Objetivo do Projeto
