@@ -51,12 +51,12 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 | Lucas Guedes Pereira | 062210002 |
 | Pedro Henrique Mateus Ribeiro | 062220039 |
 
-<p align="center">
+<!--<p align="center">
   <img src="docs/imagens/theMans.jpeg" width="500" alt="Os vagabundos que um dia houveram sonhar"/>
 </p>
 
 * Com aparição do nosso companheiro Vinicius Koiti, que felizmente não estava em nosso grupo.
-
+-->
 ---
 
 ## Objetivo do Projeto
