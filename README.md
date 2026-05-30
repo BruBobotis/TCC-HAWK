@@ -25,6 +25,7 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 <p align="center">
   <img src="docs/imagens/theMans.jpeg" width="400" alt="Protótipo do Relógio HAWK"/>
 </p>
+
 * Com aparição do nosso companheiro Vinicius Koiti, que felizmente não estava em nosso grupo.
 
 ---
