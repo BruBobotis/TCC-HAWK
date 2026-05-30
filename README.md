@@ -93,7 +93,9 @@ O protótipo foi desenvolvido utilizando os seguintes componentes principais:
 * Conexão USB-C para alimentação e programação;
 * Jumpers, soldagem e estrutura de montagem;
 * Case/protótipo físico para acomodação dos componentes.
-
+<p align="center">
+  <img src="docs/imagens/componentes.png" width="500" alt="componentes"/>
+</p>
 ---
 
 ## Firmware Embarcado
