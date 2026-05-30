@@ -88,13 +88,12 @@ O protótipo foi desenvolvido utilizando os seguintes componentes principais:
 * LilyGo T-Display ESP32-S3;
 * Sensor MPU6050;
 * Sensor MAX30102;
-* Display TFT integrado ao módulo LilyGo;
 * Botões físicos para navegação;
 * Conexão USB-C para alimentação e programação;
 * Jumpers, soldagem e estrutura de montagem;
 * Case/protótipo físico para acomodação dos componentes.
 <p align="center">
-  <img src="docs/imagens/componentes.png" width="500" alt="componentes"/>
+  <img src="docs/imagens/componentes.png" width="800" alt="componentes"/>
 </p>
 ---
 
