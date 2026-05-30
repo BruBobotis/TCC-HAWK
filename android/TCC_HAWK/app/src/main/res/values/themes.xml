@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal do app (já existe no seu projeto) -->
+    <style name="Theme.TCCHAWK" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash oficial (Android 12+) -->
+    <style name="Theme.TCCHAWK.Splash" parent="Theme.SplashScreen">
+        <!-- fundo escuro (tema 1) -->
+        <item name="windowSplashScreenBackground">#0B0F14</item>
+
+        <!-- ícone mostrado no splash -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- depois do splash, aplica seu tema normal -->
+        <item name="postSplashScreenTheme">@style/Theme.TCCHAWK</item>
+    </style>
+
+</resources>
