@@ -219,9 +219,9 @@ A tela de alertas registra eventos importantes, como:
 Os alertas críticos são exibidos em tela cheia, com som, vibração e notificação visual.
 
 <p align="center">
-  <img src="docs/imagens/hidratação.png" width="260" alt="alerta_agua"/>
-  <img src="docs/imagens/medicação.png" width="260" alt="alertas_remedio"/>
-  <img src="docs/imagens/hora_de_dormir.png" width="260" alt="alertas_dormir"/>
+  <img src="docs/imagens/hidratação.png" width="350" alt="alerta_agua"/>
+  <img src="docs/imagens/medicação.png" width="350" alt="alertas_remedio"/>
+  <img src="docs/imagens/hora_de_dormir.png" width="350" alt="alertas_dormir"/>
 </p>
 
 ### Relatórios
