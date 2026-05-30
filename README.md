@@ -95,6 +95,7 @@ O protótipo foi desenvolvido utilizando os seguintes componentes principais:
 <p align="center">
   <img src="docs/imagens/componentes.png" width="800" alt="componentes"/>
 </p>
+
 ---
 
 ## Firmware Embarcado
