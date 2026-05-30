@@ -339,35 +339,16 @@ O nRF Connect foi utilizado como ferramenta auxiliar para verificar serviços BL
 
 ## Tecnologias Utilizadas
 
-### Firmware
+| Camada | Tecnologias | Responsabilidade |
+|---|---|---|
+| Sistema Embarcado | C++, Arduino IDE, ESP32-S3, KiCad, Inventor | Sensores, display, botões, BLE e lógica local |
+| Aplicativo Mobile | Kotlin, Android Studio, Jetpack Compose | Interface, dashboard, alertas, relatórios e cuidadores |
+| Backend em Nuvem | Firebase, Cloud Firestore, Cloud Functions | Armazenamento, histórico, relatórios e sincronização futura |
+| Comunicação | Bluetooth Low Energy | Troca de dados entre relógio e aplicativo |
 
-* C++;
-* Arduino IDE;
-* Arduino GFX;
-* Bibliotecas para BLE;
-* Bibliotecas para sensores MPU6050 e MAX30102.
-
-### Aplicativo Android
-
-* Kotlin;
-* Android Studio;
-* Jetpack Compose;
-* ViewModel;
-* StateFlow;
-* Bluetooth Low Energy;
-* AlarmManager;
-* NotificationManager;
-* MediaPlayer;
-* Vibrator.
-
-### Ferramentas de Teste e Apoio
-
-* nRF Connect;
-* Serial Monitor;
-* Serial Plotter;
-* GitHub;
-* Mermaid;
-* Word/PowerPoint para documentação e apresentação.
+<p align="center">
+  <img src="docs/imagens/softwares.png" width="750" alt="Tecnologias utilizadas no projeto HAWK"/>
+</p>
 
 ---
 
