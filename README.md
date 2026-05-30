@@ -218,6 +218,12 @@ A tela de alertas registra eventos importantes, como:
 
 Os alertas críticos são exibidos em tela cheia, com som, vibração e notificação visual.
 
+<p align="center">
+  <img src="docs/images/hidratação.png" width="260" alt="alertas"/>
+  <img src="docs/images/medicação.png" width="260" alt="alertas"/>
+  <img src="docs/images/hora_de_dormir.png" width="260" alt="alertas"/>
+</p>
+
 ### Relatórios
 
 A tela de relatórios foi planejada para apresentar dados consolidados do usuário, como histórico de batimentos, SpO₂, passos, quedas e eventos críticos. A proposta é permitir acompanhamento diário, semanal e mensal.
