@@ -399,6 +399,18 @@ Campos principais:
 
 ---
 
+## Dimensão do Desenvolvimento
+
+| Módulo | Tecnologia | Responsabilidade |
+|---|---|---|
+| Firmware Embarcado | C++ / Arduino IDE | Sensores, display, botões, BLE e alertas locais |
+| Aplicativo Mobile | Kotlin / Jetpack Compose | Interface, BLE, alertas, relatórios e cuidadores |
+| Comunicação | Bluetooth Low Energy | Troca de dados entre relógio e celular |
+| Sensoriamento | MPU6050 e MAX30102 | Movimento, queda, BPM e SpO₂ |
+| Expansão em Nuvem | Firebase / MQTT | Histórico, relatórios e acesso remoto |
+
+---
+
 ## Resultados Obtidos
 
 O projeto resultou em um protótipo funcional composto por relógio vestível e aplicativo Android. O sistema foi capaz de realizar comunicação BLE, transmitir dados dos sensores, atualizar a interface do aplicativo, gerar alertas e registrar eventos críticos.
