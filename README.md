@@ -80,8 +80,9 @@ Sensores → ESP32-S3 → BLE → Aplicativo Android → Alertas / Relatórios /
 ```
 
 <p align="center">
-  <img src="docs/imagens/diagrama_funcional.png" width="800" alt="diagrama funcional"/>
+  <img src="docs/imagens/diagrama_funcional.png" width="960" alt="diagrama funcional"/>
 </p>
+
 ---
 
 ## Hardware Utilizado
