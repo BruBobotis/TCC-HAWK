@@ -1,5 +1,9 @@
 # HAWK – Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT
 
+<p align="center">
+  <img src="docs/imagens/dispositivo_vestivel.jpg" width="400" alt="Protótipo do Relógio HAWK"/>
+</p>
+
 ## Visão Geral
 
 O HAWK é um sistema de monitoramento geriátrico desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Controle e Automação para Faculdade Engenheiro Salvador Arena. O projeto consiste em um dispositivo vestível, no formato de relógio inteligente, integrado a um aplicativo Android nativo. A solução foi criada com o objetivo de auxiliar no acompanhamento de idosos, permitindo a visualização de dados fisiológicos, monitoramento de movimento, detecção de quedas, emissão de alertas e futura integração com armazenamento em nuvem.
@@ -23,7 +27,7 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 * Pedro Henrique Mateus Ribeiro - RA: 062220039
 
 <p align="center">
-  <img src="docs/imagens/theMans.jpeg" width="400" alt="Protótipo do Relógio HAWK"/>
+  <img src="docs/imagens/theMans.jpeg" width="400" alt="Os vagabundos que um dia houveram sonhar"/>
 </p>
 
 * Com aparição do nosso companheiro Vinicius Koiti, que felizmente não estava em nosso grupo.
