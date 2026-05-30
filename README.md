@@ -39,12 +39,6 @@ O nome HAWK foi escolhido em referência ao falcão, símbolo de vigilância, at
 
 ---
 
-## Autores
-
-Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Automação pela Faculdade Salvador Arena.
-
-**Projeto HAWK – Health Assistant Watch Kare**
-
 ## Equipe de Desenvolvimento
 
 Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Automação pela Faculdade Engenheiro Salvador Arena.
