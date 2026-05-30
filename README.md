@@ -30,7 +30,7 @@ Sistema vestível para cuidado geriátrico com monitoramento de sinais vitais, d
 
 O HAWK é um sistema de monitoramento geriátrico desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Controle e Automação para Faculdade Engenheiro Salvador Arena. O projeto consiste em um dispositivo vestível, no formato de relógio inteligente, integrado a um aplicativo Android nativo. A solução foi criada com o objetivo de auxiliar no acompanhamento de idosos, permitindo a visualização de dados fisiológicos, monitoramento de movimento, detecção de quedas, emissão de alertas e futura integração com armazenamento em nuvem.
 
-O sistema foi desenvolvido ao longo de aproximadamente seis meses, passando por etapas de prototipagem eletrônica, programação embarcada, desenvolvimento mobile, comunicação Bluetooth Low Energy, testes funcionais, documentação técnica e refinamento da interface.
+O sistema foi desenvolvido ao longo de aproximadamente um ano, passando por etapas de prototipagem eletrônica, programação embarcada, desenvolvimento mobile, comunicação Bluetooth Low Energy, testes funcionais, documentação técnica e refinamento da interface.
 
 O nome HAWK foi escolhido em referência ao falcão, símbolo de vigilância, atenção e resposta rápida. Essa ideia representa a proposta do sistema: acompanhar continuamente o usuário e gerar alertas em situações críticas.
 <p align="center">
