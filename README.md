@@ -562,6 +562,7 @@ TCC-HAWK/
 │       ├── protótipo_inicial.jpg
 │       ├── montagem_protótipo.jpg
 │       ├── dispositivo_vestivel.jpg
+│       ├── theMans.jpeg
 │   └── artigo/
 │       ├── PFC_Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT - V2.2
 │
