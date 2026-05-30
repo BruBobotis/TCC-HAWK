@@ -428,6 +428,23 @@ TCC-HAWK/
 │   ├── esquemas/
 │   └── componentes.md
 │
+├── esquematicos/
+│   └── eletronico/
+│       ├── eletronico.kicad_sch/
+│   └── mecanico/
+│       └── OldVersions/
+│           ├── carcaça final.0017.ipt
+│           ├── montagem_final_v2.0001.iam
+│           ├── tampa final.0012.ipt
+│       ├── botão final.ipt
+│       ├── botão final.stl
+│       ├── carcaça final.ipt
+│       ├── carcaça final.stl
+│       ├── Montagem_final.iam
+│       ├── montagem_final_v2.iam
+│       ├── tampa final.ipt
+│       ├── tampa final.stl
+│ 
 └── README.md
 ```
 
