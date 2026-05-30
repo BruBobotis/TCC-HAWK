@@ -578,6 +578,9 @@ TCC-HAWK/
 │       ├── montagem_protótipo.jpg
 │       ├── dispositivo_vestivel.jpg
 │       ├── theMans.jpeg
+│       ├── hora_de_dormir.png
+│       ├── medicação.png
+│       ├── hidratação.png
 │   └── artigo/
 │       ├── PFC_Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT - V2.2
 │
