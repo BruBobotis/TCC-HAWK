@@ -11,6 +11,9 @@ O HAWK é um sistema de monitoramento geriátrico desenvolvido como Trabalho de 
 O sistema foi desenvolvido ao longo de aproximadamente seis meses, passando por etapas de prototipagem eletrônica, programação embarcada, desenvolvimento mobile, comunicação Bluetooth Low Energy, testes funcionais, documentação técnica e refinamento da interface.
 
 O nome HAWK foi escolhido em referência ao falcão, símbolo de vigilância, atenção e resposta rápida. Essa ideia representa a proposta do sistema: acompanhar continuamente o usuário e gerar alertas em situações críticas.
+<p align="center">
+  <img src="android/TCC_HAWK/app/src/main/res/drawable/hawk_logo.png" width="400" alt="Logo do Projeto HAWK"/>
+</p>
 
 ---
 
@@ -27,7 +30,7 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 * Pedro Henrique Mateus Ribeiro - RA: 062220039
 
 <p align="center">
-  <img src="docs/imagens/theMans.jpeg" width="400" alt="Os vagabundos que um dia houveram sonhar"/>
+  <img src="docs/imagens/theMans.jpeg" width="500" alt="Os vagabundos que um dia houveram sonhar"/>
 </p>
 
 * Com aparição do nosso companheiro Vinicius Koiti, que felizmente não estava em nosso grupo.
