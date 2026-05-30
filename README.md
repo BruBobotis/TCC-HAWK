@@ -421,8 +421,19 @@ TCC-HAWK/
 │
 ├── docs/
 │   ├── fluxogramas/
+│       ├── logica_funcionamento.png
+│       ├── detecção_queda.png
 │   ├── imagens/
+│       ├── diagrama_funcional.png
+│       ├── softwares.png
+│       ├── testes.png
+│       ├── componentes.png
+│       ├── protótipo_final.jpg
+│       ├── protótipo_inicial.jpg
+│       ├── montagem_protótipo.jpg
+│       ├── dispositivo_vestivel.jpg
 │   └── artigo/
+│       ├── PFC_Desenvolvimento de um dispositivo vestível para cuidado geriátrico com integração IoT - V2.2
 │
 ├── esquematicos/
 │   └── eletronico/
