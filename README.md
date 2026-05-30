@@ -71,21 +71,14 @@ Além disso, o projeto foi estruturado para permitir futuras expansões, como ar
 
 O sistema implementa as seguintes funcionalidades:
 
-* Monitoramento de frequência cardíaca;
-* Monitoramento de saturação de oxigênio;
-* Contagem de passos;
-* Leitura dos dados do acelerômetro nos eixos X, Y e Z;
-* Identificação de movimento e repouso;
-* Detecção de possível queda;
-* Alerta crítico de queda no aplicativo;
-* Alerta sonoro, vibração e tela cheia no celular;
-* Alertas personalizados para batimento alto, batimento baixo e SpO₂ fora do limite;
-* Alertas pré-programados de água, remédio, sono e alerta geral;
-* Sincronização de data e hora do celular para o relógio;
-* Comunicação Bluetooth Low Energy entre relógio e aplicativo;
-* Interface embarcada no relógio;
-* Aplicativo Android com dashboard, relatórios, alertas, cuidadores, configurações e cadastro de usuário;
-* Estrutura inicial para envio de dados à nuvem via Firebase.
+| Categoria | Funcionalidades |
+|---|---|
+| Monitoramento | Frequência cardíaca, SpO₂, passos, movimento e repouso |
+| Segurança | Detecção de queda, alerta sonoro, vibração e tela cheia |
+| Comunicação | Bluetooth Low Energy entre relógio e aplicativo |
+| Aplicativo | Dashboard, alertas, relatórios, cuidadores e configurações |
+| Personalização | Cadastro do usuário, limites de BPM e SpO₂, lembretes de água, remédio e sono |
+| Expansão | Estrutura preparada para integração com banco de dados em nuvem |
 
 ---
 
