@@ -45,11 +45,17 @@ Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Aut
 
 **Projeto HAWK – Health Assistant Watch Kare**
 
-* Bruno Alves Guirado - RA: 062210033
-* Guilherme Fernando de Oliveira Bezerra - RA: 062210038
-* Guilherme do Nascimento de Souza- RA: 062210016
-* Lucas Guedes Pereira - RA: 062210002
-* Pedro Henrique Mateus Ribeiro - RA: 062220039
+## Equipe de Desenvolvimento
+
+Projeto desenvolvido como Projeto Final de Curso em Engenharia de Controle e Automação pela Faculdade Engenheiro Salvador Arena.
+
+| Integrante | RA |
+|---|---|
+| Bruno Alves Guirado | 062210033 |
+| Guilherme Fernando de Oliveira Bezerra | 062210038 |
+| Guilherme do Nascimento de Souza | 062210016 |
+| Lucas Guedes Pereira | 062210002 |
+| Pedro Henrique Mateus Ribeiro | 062220039 |
 
 <p align="center">
   <img src="docs/imagens/theMans.jpeg" width="500" alt="Os vagabundos que um dia houveram sonhar"/>
