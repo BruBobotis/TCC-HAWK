@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="android/TCC_HAWK/app/src/main/res/drawable/hawk_logo.png" width="220" alt="Logo HAWK"/>
+<img src="docs/imagens/dispositivo_vestivel.jpg" width="500" alt="Logo HAWK"/>
 
 # HAWK  
 ### Health Assistant Watch Kare
