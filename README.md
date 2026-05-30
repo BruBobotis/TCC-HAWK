@@ -79,6 +79,9 @@ Fluxo geral:
 Sensores → ESP32-S3 → BLE → Aplicativo Android → Alertas / Relatórios / Nuvem
 ```
 
+<p align="center">
+  <img src="docs/imagens/diagrama_funcional.png" width="800" alt="diagrama funcional"/>
+</p>
 ---
 
 ## Hardware Utilizado
